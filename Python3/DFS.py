@@ -1,12 +1,12 @@
 
-# 깊이 
+# 깊이 탐색 알고리즘
 def dfs(graph, v, visited):
 
     visited[v] = True
     print(v, end = ' ')
     for i in graph[v]:
-        if not visited[v]:
-            dfs(graph, v, visited)
+        if not visited[i]:
+            dfs(graph, i, visited)
 
 graph = [
     [],

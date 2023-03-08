@@ -8,7 +8,7 @@ def change(a, b, cnt):
 
     for i in range(cnt):
         if a[i] < b[i]:
-            a[i], b[i] = b[i], a[i]
+            a[i], b[i] = b[i], a[i] # 조건에 만족하면 서로의 위치 변경한다.
         else:
             break
     
