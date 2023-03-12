@@ -13,7 +13,6 @@ let row = Int(String(inputData[inputData.index(after: inputData.startIndex)]))!
 let savecol:String = String(inputData[inputData.startIndex])
 let col:Int =  Int(UnicodeScalar(savecol)!.value) - Int(UnicodeScalar("a").value) + 1
 
-print(type(of: row))
 
 let steps = [(2,1), (1,2), (-2,1), (1,-2), (2,-1), (-1,2), (-1,-2), (-2,-1)]
 
