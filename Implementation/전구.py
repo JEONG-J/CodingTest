@@ -18,7 +18,6 @@ def solve(light, save):
 
     return light
 
-
 light_num, input_num = map(int, sys.stdin.readline().split())
 lights = list(map(int, sys.stdin.readline().split()))
 for _ in range(input_num):
